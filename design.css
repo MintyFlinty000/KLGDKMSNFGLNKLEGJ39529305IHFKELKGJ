@@ -1,0 +1,122 @@
+.textstyle1 {
+	font-family: sans-serif;
+	color: white;
+	text-shadow: -2px 2px 5px black;
+	padding: 15px;
+}
+
+.textstyle2 {
+	font-family: sans-serif;
+	color: black;
+	text-shadow: -2px 2px 5px black;
+	padding: 15px;
+}
+
+body {
+	background-image: url('Data/Background.png');
+	width: 98.9vw;
+	height: 100vh;
+	background-size: 80%;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+.divtype1 {
+	border-radius: 15px;
+	background-image: linear-gradient(to bottom, rgba(200, 255, 200, 1), rgba(128, 255, 0, 0.5)), linear-gradient(to right, lime, yellow);
+	border: 5px solid white;
+	box-shadow: -5px 5px 10px black;
+	padding: 10px;
+}
+
+img {
+	border-radius: 15px;
+	max-width: 100%;
+	height: auto;
+}
+
+video {
+	border-radius: 15px;
+	border: 5px solid white;
+	max-width: 100%;
+	height: auto;
+}
+
+.hovereffect {
+	scale: 1;
+	filter: brightness(100%);
+	transition: scale 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+.hovereffect:hover {
+	scale: 1.1;
+	filter: brightness(120%);
+	position: relative;
+	z-index: 1;
+}
+
+button {
+	border-radius: 15px;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(150, 150, 150, 0.5)), linear-gradient(to right, lime, yellow);
+	padding: 8px 12px;
+	border: 2px solid white;
+	box-shadow: -2px 2px 5px black;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+	box-shadow: -3px 3px 8px black;
+	transform: translateY(-2px);
+}
+
+button:active {
+	transform: translateY(0);
+	box-shadow: -1px 1px 3px black;
+}
+
+input {
+	border-radius: 15px;
+	padding: 8px 12px;
+	border: 2px solid white;
+	font-family: sans-serif;
+	background-color: rgba(255, 255, 255, 0.95);
+	transition: all 0.2s ease-in-out;
+	box-shadow: -2px 2px 5px black;
+}
+
+input:focus {
+	outline: none;
+	box-shadow: 0 0 8px rgba(0, 255, 0, 0.8);
+	background-color: white;
+}
+
+.boxshadow {
+	box-shadow: -2px 2px 5px black;
+}
+
+.cursorpointereffect {
+	cursor: pointer;
+}
+
+.whitebordereffect1 {
+	border: 2px solid white;
+}
+
+button.left {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+button.center {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+button.right {
+	display: inline-block;
+	vertical-align: middle;
+}
